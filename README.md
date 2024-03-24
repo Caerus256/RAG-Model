@@ -1,6 +1,6 @@
-# Flask PDF Q&A System with User Authentication
+# Retrieval-Augmented Generation (RAG) Model using OpenAI API 
 
-This project implements a Flask-based Question and Answering (Q&A) system that allows users to upload PDF files, trains a model using the uploaded PDF, and then provides answers to questions posed by the users based on the content of the PDF. Additionally, it incorporates user authentication functionalities to secure certain routes of the application.
+This is an implementation of a Flask-based Question and Answering (Q&A) system that allows users to upload PDF files, trains a model using the uploaded PDF, and then provides answers to questions posed by the users based on the content of the PDF.
 
 ## Features
 
