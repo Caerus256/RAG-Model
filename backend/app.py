@@ -17,7 +17,8 @@ app.config['SECRET_KEY'] = 'your_secret_key'
 
 ASTRA_DB_APPLICATION_TOKEN = "AstraCS:TnAKCcGXsYFqQFTMlzcohEYT:163639b6277776f852895af91f727c3f3f682188edc948ae4b23c5195395db6b"
 ASTRA_DB_ID = "028ab0ff-bd0c-49de-a050-b81c743468f7"
-OPENAI_API_KEY = "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"
+# Add you OpenAI API key
+OPENAI_API_KEY = f"{OpenAI_API_Key}"
 
 # Initialize SQLite Database
 def init_db():
