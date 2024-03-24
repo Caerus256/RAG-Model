@@ -22,8 +22,23 @@ Before running the application, ensure you have the following dependencies insta
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-```bash
-git clone https://github.com/your_username/your_repository.git
-cd your_repository
+    ```bash
+    git clone https://github.com/your_username/your_repository.git
+    cd your_repository
+    ```
+
+2. **Install the dependencies:**
+
+    ```bash
+    pip install Flask PyPDF2 cassandra-driver langchain_openai
+    ```
+
+3. **Set up your environment variables:**
+
+    - `ASTRA_DB_APPLICATION_TOKEN`: Your Astra DB application token.
+    - `ASTRA_DB_ID`: Your Astra DB ID.
+    - `OPENAI_API_KEY`: Your OpenAI API key.
+    - `SECRET_KEY`: A secret key for Flask session management.
+
