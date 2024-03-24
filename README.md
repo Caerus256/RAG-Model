@@ -41,4 +41,30 @@ Before running the application, ensure you have the following dependencies insta
     - `ASTRA_DB_ID`: Your Astra DB ID.
     - `OPENAI_API_KEY`: Your OpenAI API key.
     - `SECRET_KEY`: A secret key for Flask session management.
+  
+## Usage
+
+1. **Initialize the SQLite database by running:**
+
+    ```bash
+    python app.py
+    ```
+
+2. **Start the Flask server:**
+
+    ```bash
+    python app.py
+    ```
+
+3. **Access the application in your browser at** `http://localhost:5000`.
+
+## Routes
+
+- **/**: Renders the login page.
+- **/register**: Allows users to register with a unique username and password.
+- **/login**: Enables users to log in with their credentials.
+- **/protected**: Renders the protected route after successful authentication.
+- **/upload**: Handles file upload for PDF processing.
+- **/ask**: Accepts POST requests to ask questions and returns answers.
+
 
